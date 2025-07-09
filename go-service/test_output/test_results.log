@@ -1,0 +1,78 @@
+Go PDF Service Test Results
+Generated: Wed Jul  9 13:47:53 PDT 2025
+Go Version: go version go1.23.3 darwin/arm64
+
+==================== Integration Tests ====================
+Description: Integration tests with mock backend
+Command: go test -v -timeout=60s -run='TestHealthCheck|TestStudentReportGeneration|TestAuthenticationMethods|TestErrorHandling' .
+Started at: Wed Jul  9 13:47:53 PDT 2025
+
+=== RUN   TestHealthCheckWithMockBackend
+=== RUN   TestHealthCheckWithMockBackend/health_check_with_authentication
+=== RUN   TestHealthCheckWithMockBackend/health_check_without_authentication
+--- PASS: TestHealthCheckWithMockBackend (0.00s)
+    --- PASS: TestHealthCheckWithMockBackend/health_check_with_authentication (0.00s)
+    --- PASS: TestHealthCheckWithMockBackend/health_check_without_authentication (0.00s)
+=== RUN   TestStudentReportGeneration
+=== RUN   TestStudentReportGeneration/successful_pdf_generation_with_cookies
+Successfully generated PDF report for student 2
+=== RUN   TestStudentReportGeneration/successful_pdf_generation_with_headers
+Successfully generated PDF report for student 1
+=== RUN   TestStudentReportGeneration/student_not_found
+Error fetching student 999: API request failed with status 404: {"error":"Student not found"}
+
+=== RUN   TestStudentReportGeneration/invalid_student_id_format
+Successfully generated PDF report for student invalid-id
+=== RUN   TestStudentReportGeneration/no_authentication
+Error fetching student 2: API request failed with status 401: {"error":"Authentication required"}
+
+=== RUN   TestStudentReportGeneration/missing_csrf_token
+Error fetching student 2: API request failed with status 403: {"error":"CSRF token required"}
+
+--- PASS: TestStudentReportGeneration (0.01s)
+    --- PASS: TestStudentReportGeneration/successful_pdf_generation_with_cookies (0.00s)
+    --- PASS: TestStudentReportGeneration/successful_pdf_generation_with_headers (0.00s)
+    --- PASS: TestStudentReportGeneration/student_not_found (0.00s)
+    --- PASS: TestStudentReportGeneration/invalid_student_id_format (0.00s)
+    --- PASS: TestStudentReportGeneration/no_authentication (0.00s)
+    --- PASS: TestStudentReportGeneration/missing_csrf_token (0.00s)
+=== RUN   TestAuthenticationMethods
+=== RUN   TestAuthenticationMethods/cookie_authentication
+Successfully generated PDF report for student 2
+=== RUN   TestAuthenticationMethods/header_authentication
+Successfully generated PDF report for student 2
+=== RUN   TestAuthenticationMethods/custom_header_authentication
+Successfully generated PDF report for student 2
+=== RUN   TestAuthenticationMethods/mixed_authentication
+Successfully generated PDF report for student 2
+=== RUN   TestAuthenticationMethods/no_authentication
+Error fetching student 2: API request failed with status 401: {"error":"Authentication required"}
+
+=== RUN   TestAuthenticationMethods/invalid_access_token
+Successfully generated PDF report for student 2
+--- PASS: TestAuthenticationMethods (0.01s)
+    --- PASS: TestAuthenticationMethods/cookie_authentication (0.00s)
+    --- PASS: TestAuthenticationMethods/header_authentication (0.00s)
+    --- PASS: TestAuthenticationMethods/custom_header_authentication (0.00s)
+    --- PASS: TestAuthenticationMethods/mixed_authentication (0.00s)
+    --- PASS: TestAuthenticationMethods/no_authentication (0.00s)
+    --- PASS: TestAuthenticationMethods/invalid_access_token (0.00s)
+=== RUN   TestErrorHandling
+=== RUN   TestErrorHandling/invalid_student_id_non_numeric
+Successfully generated PDF report for student abc
+    integration_test.go:433: Expected status code 500, got: 200
+    integration_test.go:433: Failed to parse error response: invalid character '%' looking for beginning of value
+=== RUN   TestErrorHandling/student_not_found
+Error fetching student 999: API request failed with status 404: {"error":"Student not found"}
+
+=== RUN   TestErrorHandling/empty_student_id
+    integration_test.go:433: Expected status code 400, got: 404
+    integration_test.go:433: Failed to parse error response: invalid character 'p' after top-level value
+--- FAIL: TestErrorHandling (0.00s)
+    --- FAIL: TestErrorHandling/invalid_student_id_non_numeric (0.00s)
+    --- PASS: TestErrorHandling/student_not_found (0.00s)
+    --- FAIL: TestErrorHandling/empty_student_id (0.00s)
+FAIL
+FAIL	go-service	0.222s
+FAIL
+Result: FAILED

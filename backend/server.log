@@ -1,0 +1,157 @@
+Server running on port 5007
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:328:13) {
+  statusCode: 401
+}
+ApiError: Unauthorized. Please provide valid tokens.
+    at authenticateToken (/Users/scottterry/Workspace/skill-test/backend/src/middlewares/authenticate-token.js:10:11)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/scottterry/Workspace/skill-test/backend/node_modules/express/lib/router/index.js:47:12) {
+  statusCode: 401
+}
